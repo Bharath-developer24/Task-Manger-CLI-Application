@@ -1,8 +1,7 @@
 
 
 
-#>>>>>>>>>>>>>>>>>    TITLE OF THE PROJECT : TASK MANAGER CLI APPLICATION  <<<<<<<<<<<<<<<<<<<<
-
+#>>>>>>>>>>>>>>>>>    TITLE OF THE PROJECT : TASK MANAGER CLI APPLICATION 
 
 
 #>>> DESCRIPTION : A simple command-line application for managing tasks. This application allows users to add, view, mark as complete and delete tasks and it saves the tasks to a JSON file for persistence.The application uses a simple Task class to represent each task and provides easy-to-use methods for managing tasks.
@@ -49,10 +48,10 @@ IF WE WANT TO ADD ANOTHER TASK TO CHANGE THE LOGIN CREDENTIALS THEN WE DEFINE AN
 
 
 def change_credentials():
-    global EMAIL_ID, PASSWORD   #hear we declare globle variables then it will be we can access enataire code 
+    #hear we declare globle variables then it will be we can access enataire code 
+    global EMAIL_ID, PASSWORD  
     new_email = input("Enter new email: ")
     new_password = input("Enter new password: ")
-
     EMAIL_ID = new_email
     PASSWORD = new_password
     print("Credentials updated successfully.")
