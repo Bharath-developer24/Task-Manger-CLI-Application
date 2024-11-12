@@ -6,8 +6,8 @@
 
 #>>> DESCRIPTION : A simple command-line application for managing tasks. This application allows users to add, view, mark as complete and delete tasks and it saves the tasks to a JSON file for persistence.The application uses a simple Task class to represent each task and provides easy-to-use methods for managing tasks.
 
->>>>>>>Features:
-Add Task: Create a new task with a title.
+#>>>>>>> Features:
+#Add Task: Create a new task with a title.
 View Tasks: Display all tasks with their status (completed or not).
 Delete Task: Remove a task by ID.
 Mark Task as Complete: Update the task status to completed.
@@ -15,14 +15,14 @@ Save & Load: Automatically saves tasks to tasks.json and loads them on startup.
 
 
 
-#>>>>>>Project Structure and overview:
+#>>>>>> Project Structure and overview:
 task_manager.py: Main script containing the application logic.
 tasks.json: JSON file for storing asks data.
 README.md: Documentation file.
 Getting Started Clone the repository.
 
 
-#>>>>>>>Instructions and how to Run the application with:
+#>>>>>>> Instructions and how to Run the application with:
 bash Copy code python task_manager.py
 Follow the on-screen menu to manage tasks.
 
