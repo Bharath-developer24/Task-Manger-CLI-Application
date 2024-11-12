@@ -1,10 +1,10 @@
 
 
 
->>>>>>>>>>>>>>>>>    TITLE OF THE PROJECT : TASK MANAGER CLI APPLICATION 
+#>>>>>>>>>>>>>>>>>    TITLE OF THE PROJECT : TASK MANAGER CLI APPLICATION 
 
 
->>> DESCRIPTION : A simple command-line application for managing tasks. This application allows users to add, view, mark as complete and delete tasks and it saves the tasks to a JSON file for persistence.The application uses a simple Task class to represent each task and provides easy-to-use methods for managing tasks.
+#>>> DESCRIPTION : A simple command-line application for managing tasks. This application allows users to add, view, mark as complete and delete tasks and it saves the tasks to a JSON file for persistence.The application uses a simple Task class to represent each task and provides easy-to-use methods for managing tasks.
 
 >>>>>>>Features:
 Add Task: Create a new task with a title.
@@ -27,7 +27,7 @@ bash Copy code python task_manager.py
 Follow the on-screen menu to manage tasks.
 
 
->>>>>> Usage Example:
+#>>>>>> Usage Example:
 Add a Task: Enter the title when prompted.
 View Tasks: Lists all tasks with their IDs and completion status.
 Delete a Task: Input the task ID to remove it.
@@ -35,14 +35,14 @@ Mark as Complete: Input the task ID to mark it as complete.
 
 
 
->>>>>>> Requirements >>> Python 3.x
+#>>>>>>> Requirements >>> Python 3.x
 
 
 
 
 
 
-IF WE WANT TO ADD ANOTHER TASK TO CHANGE THE LOGIN CREDENTIALS THEN WE DEFINE ANOTHER METHOD LIKE THE FOLLOWING CODE IN THE MAIN CODE(task_manager.py File) 
+#IF WE WANT TO ADD ANOTHER TASK TO CHANGE THE LOGIN CREDENTIALS THEN WE DEFINE ANOTHER METHOD LIKE THE FOLLOWING CODE IN THE MAIN CODE(task_manager.py File) 
 
 
 
